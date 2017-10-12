@@ -1,0 +1,31 @@
+﻿# encoding: utf-8
+# Release 16.1
+SetScriptVersion(Version="16.1.91")
+system1 = GetSystem(Name="SYS")
+system2 = system1.Duplicate(RelativeTo=system1)
+system2.DisplayText = "coarse_mesh"
+geometryComponent1 = system2.GetComponent(Name="Geometry")
+system3 = GetSystem(Name="Geom")
+geometryComponent2 = system3.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system2,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system3)
+meshComponent1 = system2.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system2.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+Save(Overwrite=True)
+mesh1.Edit()
+mesh1.Exit()
+system4 = GetSystem(Name="FLU")
+system5 = system4.Duplicate(RelativeTo=system4)
+setupComponent1 = system5.GetComponent(Name="Setup")
+meshComponent1.TransferData(TargetComponent=setupComponent1)
+meshComponent2 = system1.GetComponent(Name="Mesh")
+meshComponent2.DeleteTransfer(TargetComponent=setupComponent1)
+setupComponent1.Update(AllDependencies=True)
+mesh1.Edit()
+mesh1.Exit()
+Save(Overwrite=True)

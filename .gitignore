@@ -1,0 +1,15 @@
+# Fluent files
+*.cas
+*.dat
+*.cas.gz
+*.dat.gz
+
+#Rocky files
+*.rocky30
+*.rocky
+*.f2r
+*file_dir.rocky30/
+
+#ipython
+.ipynb_checkpoints/
+

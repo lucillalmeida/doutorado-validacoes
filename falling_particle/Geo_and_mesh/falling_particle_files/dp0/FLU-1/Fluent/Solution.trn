@@ -1,0 +1,56 @@
+
+Build Time: Mar 25 2015 13:03:49  Build Id: 10107 
+Executable Path: C:/PROGRA~1/ANSYSI~1/v161/fluent/ntbin/win64/fluent.exe
+Reading Settings file D:ProjetosAcoplamentocoupling_verification_testsfalling_particlefalling_particlefalling_particle_filesdp0FLU-1FluentSYS.set...
+Reading "D:ProjetosAcoplamentocoupling_verification_testsfalling_particlefalling_particlefalling_particle_filesdp0SYS-1MECHSYS-1.1.msh"...
+     735 nodes, binary.
+     642 nodes, binary.
+    2752 quadrilateral interior faces, zone  1, binary.
+      64 quadrilateral wall faces, zone  5, binary.
+      64 quadrilateral wall faces, zone  6, binary.
+     512 quadrilateral wall faces, zone  7, binary.
+    1024 hexahedral cells, zone  2, binary.
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	walls
+	top
+	bottom
+	solid
+	interior-solidSetting solid (mixture) (zone type changed to fluid) ... Done.
+
+Applying mesh operation "Change Zone Type"
+ Setting zone id of solid to 2.
+ Setting zone id of interior-solid to 1.
+ Setting zone id of bottom to 5.
+ Setting zone id of top to 6.
+ Setting zone id of walls to 7.
+Done.
+Setting solid (mixture) ... Done.
+Setting interior-solid (mixture) ... Done.
+Setting bottom (mixture) ... Done.
+Setting top (mixture) ... Done.
+Setting walls (mixture) ... Done.
+
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+Writing "| gzip -2cf > SYS-1.1-Setup-Output.cas.gz"...
+Writing temporary file C:\Users\lucilla\AppData\Local\Temp\flntgz-386922 ...
+    1024 hexahedral cells, zone  2, binary.
+    2752 quadrilateral interior faces, zone  1, binary.
+      64 quadrilateral wall faces, zone  5, binary.
+      64 quadrilateral wall faces, zone  6, binary.
+     512 quadrilateral wall faces, zone  7, binary.
+    1377 nodes, binary.
+    1377 node flags, binary.
+Done.
+
