@@ -1,0 +1,537 @@
+variable_type scalar
+variable 'pressure'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+-347.407
+5301.36
+10950.1
+16598.9
+22247.7
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'water_velocity_magnitude'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.0392804
+0.110281
+0.181282
+0.252283
+0.323283
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'water_y_velocity'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.0392221
+0.110237
+0.181252
+0.252266
+0.323281
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'water_z_velocity'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+-0.0167415
+-0.00465143
+0.00743863
+0.0195287
+0.0316187
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'water_vof'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.36657
+0.524927
+0.683285
+0.841642
+1
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'particles_vof'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0
+0.158358
+0.316715
+0.475073
+0.63343
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'TempMeanVelocity'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.0397111
+0.105151
+0.170591
+0.236031
+0.301471
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'TempMeanVoidFraction'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.366779
+0.525085
+0.68339
+0.841696
+1
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type scalar
+variable 'TempMeanPressure'
+type constant
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.0892693
+5676.21
+11352.3
+17028.5
+22704.6
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type coordinate
+type continuous
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0.0707107
+0.253813
+0.436915
+0.620017
+0.803119
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10
+variable_type time
+type continuous
+limit_fringes no
+scale linear
+number_of_levels 5
+levels_lock on
+node_lock color
+colors_per_level 16
+degree linear
+display_undefined by_model_color
+alpha_volume_scale -1.000000
+color_space rgba
+component_values 0 5
+0.000000 0.000000
+0.250000 0.000000
+0.500000 0.000000
+0.750000 1.000000
+1.000000 1.000000
+component_values 1 5
+0.000000 0.000000
+0.250000 1.000000
+0.500000 1.000000
+0.750000 1.000000
+1.000000 0.000000
+component_values 2 5
+0.000000 1.000000
+0.250000 1.000000
+0.500000 0.000000
+0.750000 0.000000
+1.000000 0.000000
+component_values 3 6
+0.000000 0.300000
+0.200000 0.300000
+0.400000 0.300000
+0.600000 0.300000
+0.800000 0.300000
+1.000000 0.300000
+values
+0
+25
+50
+75
+100
+over_time OFF
+reset_range_time_chng OFF
+marker_width 1
+marker_line_color 0.000000 0.000000 0.000000
+marker_max_num 10

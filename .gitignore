@@ -1,15 +1,25 @@
-# Fluent files
+# Fluent
+*.bat
 *.cas
 *.dat
 *.cas.gz
 *.dat.gz
 
-#Rocky files
+# Rocky
 *.rocky30
 *.rocky
+*.rocky_archive
 *.f2r
+*.rocky30.files/
 *file_dir.rocky30/
 
-#ipython
+# IPython
 .ipynb_checkpoints/
 
+# EnSight
+*ensight*/
+*.case
+*.encas
+*.geo
+*.scl[0-9]
+*.velph[0-9]

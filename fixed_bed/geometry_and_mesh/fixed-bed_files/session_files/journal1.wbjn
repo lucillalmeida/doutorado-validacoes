@@ -1,0 +1,38 @@
+﻿# encoding: utf-8
+# Release 16.1
+SetScriptVersion(Version="16.1.91")
+template1 = GetTemplate(TemplateName="Geometry")
+system1 = template1.CreateSystem()
+template2 = GetTemplate(TemplateName="Mesh")
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+system2 = template2.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system1)
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+Save(Overwrite=True)
+geometry1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry1.Exit()
+system3 = system1.Duplicate(RelativeTo=system1)
+system3.DisplayText = "rocky"
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+system3.Delete()
+geometry1.Edit()
+Save(Overwrite=True)
+geometry1.Exit()
+meshComponent1 = system2.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system2.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+Save(Overwrite=True)
+mesh1.Exit()
+Save(Overwrite=True)
+mesh1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
